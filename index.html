@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Final</title>
+		<meta charset="UTF-8">
+		<style> 
+		.dDis{
+			display:none;
+		}
+		a:hover{
+			text-decoration:underline;
+			color:purple;
+			font-weight:bold;
+			cursor: pointer;
+		}
+		body, header, nav{
+			padding:0;
+			margin:0;
+		}
+		main, footer{
+			margin:auto;
+			margin-top:15px;
+			width:75%;
+		}
+		body{
+			background-color:white;
+		}
+		header, nav, main, footer{
+			background-color:blue;
+		}
+		a, div{
+			background-color:orange;
+		}
+		
+		
+		</style>
+	</head>
+	<body>
+	<!-- The Blue elements mean that the are located inside of the body.
+	<!-- The orange elements means that it is contained inside of something blue -->
+		<header> header </header>
+		<nav>
+		<!-- the nav text and <br> are temp-->
+			nav <br>
+			<a onClick="changeDiv('0')">anchor for div1</a> &nbsp;
+			<a onClick="changeDiv('1')">anchor for div2</a> &nbsp;
+			<a onClick="changeDiv('2')">anchor for div3</a> &nbsp;
+			<a onClick="changeDiv('3')">anchor for div4</a> &nbsp;
+			<a onClick="changeDiv('4')">anchor for div5</a> &nbsp;
+		</nav>
+		<main>
+		main(content)
+			<div id="div1" class="dDis">
+				div 1 content
+			</div>
+			<div id="div2" class="dDis">
+				div 2 content
+			</div>
+			<div id="div3" class="dDis">
+				div 3 content
+			</div>
+			<div id="div4" class="dDis">
+				div 4 content
+			</div>
+			<div id="div5" class="dDis">
+				div 5 content
+			</div>
+		</main>
+		<footer>
+			footer
+		</footer>
+		<script>
+			var divS = document.getElementsByTagName("div");
+			function changeDiv(num){
+				for(var index=0; index<divS.length; index++){
+					
+					divS[index].style.display="none";
+				}
+				
+				divS[num].style.display="block";
+			}
+		</script>
+	</body>
+</html>
