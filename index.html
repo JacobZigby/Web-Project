@@ -3,63 +3,33 @@
 	<head>
 		<title>Final</title>
 		<meta charset="UTF-8">
-		<style> 
-		.dDis{
-			display:none;
-		}
-		a:hover{
-			text-decoration:underline;
-			color:purple;
-			font-weight:bold;
-			cursor: pointer;
-		}
-		body, header, nav{
-			padding:0;
-			margin:0;
-		}
-		main, footer{
-			margin:auto;
-			margin-top:15px;
-			width:75%;
-		}
-		body{
-			background-color:white;
-		}
-		header, nav, main, footer{
-			background-color:blue;
-		}
-		a, div{
-			background-color:orange;
-		}
-		
-		
-		</style>
+        <link rel="stylesheet" type="text/css" href="LengendOfZelda.css">
 	</head>
 	<body>
-<<<<<<< HEAD
-     <!-- This is the music used for the background  
-=======
-        body
->>>>>>> origin/master
+
+    <!--This is the music used for the background  
+
     <div id="player">
-    <audio controls autoplay hidden>
+    <audio controls autoplay hidden loop>
     <source src="audio/BG-MUSIC.mp3" type="audio/mpeg">
     </audio>
-</div>
+</div>-->
         
         
 	<!-- The Blue elements mean that the are located inside of the body.
 	<!-- The orange elements means that it is contained inside of something blue -->
 		<header> header </header>
-		<nav>
+		<div class="nav" >
+            <ul>
 		<!-- the nav text and <br> are temp-->
-			nav <br>
-			<a onClick="changeDiv('0')">anchor for div1</a> &nbsp;
-			<a onClick="changeDiv('1')">anchor for div2</a> &nbsp;
-			<a onClick="changeDiv('2')">anchor for div3</a> &nbsp;
-			<a onClick="changeDiv('3')">anchor for div4</a> &nbsp;
-			<a onClick="changeDiv('4')">anchor for div5</a> &nbsp;
-		</nav>
+			 
+			<li class="home"><a href="#">Home</a></li> &nbsp
+			<li class="Gameinfo"><a href="#">GameInfo</a></li>&nbsp
+			<li class="Artwork"><a href="#">Artwork</a></li>&nbsp
+			<li class="BuyNow"><a href="#">BuyNow</a></li>&nbsp
+			<li class="Aboutus"><a href="#">About us</a></li>
+            </ul>
+        </div>
 		<main>
 		main(content)
 			<div id="div1" class="dDis">
