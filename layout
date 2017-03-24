@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Template</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header> this will be for the logo</header>
+	<nav> this is for the nav </nav>
+	<div id="first">
+		five of these divs
+		<h1>place a header here</h1>
+		
+		<div id="main">
+			this is where the main content will be placed such as any other elements needed for a specifice section
+		</div>
+</body>
+</html>
