@@ -14,5 +14,43 @@
 		<div id="main">
 			this is where the main content will be placed such as any other elements needed for a specifice section
 		</div>
+		
+	</div>
+	<div id="secound">
+		five of these divs
+		<h1>place a header here</h1>
+		
+		<div id="main">
+			this is where the main content will be placed such as any other elements needed for a specifice section
+		</div>
+		
+	</div>
+	<div id="third">
+		five of these divs
+		<h1>place a header here</h1>
+		
+		<div id="main">
+			this is where the main content will be placed such as any other elements needed for a specifice section
+		</div>
+		
+	</div>
+	<div id="fourth">
+		five of these divs
+		<h1>place a header here</h1>
+		
+		<div id="main">
+			this is where the main content will be placed such as any other elements needed for a specifice section
+		</div>
+		
+	</div>
+	<div id="fifth">
+		five of these divs
+		<h1>place a header here</h1>
+		
+		<div id="main">
+			this is where the main content will be placed such as any other elements needed for a specifice section
+		</div>
+		
+	</div>
 </body>
 </html>
