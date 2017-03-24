@@ -11,7 +11,10 @@
 		five of these divs
 		<h1>place a header here</h1>
 		
-		<div id="main">
+		<div>
+		/*
+		this if for main content
+		*/
 			this is where the main content will be placed such as any other elements needed for a specifice section
 		</div>
 		
@@ -20,7 +23,7 @@
 		five of these divs
 		<h1>place a header here</h1>
 		
-		<div id="main">
+		<div>
 			this is where the main content will be placed such as any other elements needed for a specifice section
 		</div>
 		
@@ -29,7 +32,7 @@
 		five of these divs
 		<h1>place a header here</h1>
 		
-		<div id="main">
+		<div>
 			this is where the main content will be placed such as any other elements needed for a specifice section
 		</div>
 		
@@ -38,7 +41,7 @@
 		five of these divs
 		<h1>place a header here</h1>
 		
-		<div id="main">
+		<div>
 			this is where the main content will be placed such as any other elements needed for a specifice section
 		</div>
 		
@@ -47,7 +50,7 @@
 		five of these divs
 		<h1>place a header here</h1>
 		
-		<div id="main">
+		<div>
 			this is where the main content will be placed such as any other elements needed for a specifice section
 		</div>
 		
