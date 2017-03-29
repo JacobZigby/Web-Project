@@ -1,59 +1,14 @@
-.dDis{
-			display:none;
-		}
-		a:hover{
-			text-decoration:underline;
-			color:purple;
-			font-weight:bold;
-			cursor: pointer;
-		}
-		body, header, nav{
-			padding:0;
-			margin:0;
-		}
-		main, footer{
-			margin:auto;
-			margin-top:15px;
-			width:75%;
-		}
-		body{
-			background-color:white;
-		}
-		header, nav, main, footer{
-			background-color:blue;
-		}
-            
-        .nav ul {
-        list-style: none;
-        background-color:burlywood; 
-        text-align: center;
-        padding:0;
-        margin: 0;
-        }
-       .nav li {
-           font-family: cursive;
-           font-size: 1.1em;
-           line-height: 40px;
-           height:40px;
-           border-bottom: 1px solid #888;
-        }
-        .nav a {
-            text-decoration: none;
-            color:#fff;
-            display:block;
-            transition:.3s background-color;
-                
-        }
-            
-        .nav a:hover{
-            background-color: burlywood;
-        }
-            .nav a.active{
-                background-color: #fff;
-                color:#444;
-                cursor: default;
-            }
-            .nav li{
-               display:inline-block;
-                margin-right: -4px;
-            }
+body{
+	background-color:#0e5135;
+	color:#448C00;
+	background-image:url("zeldawallpaper.jpg");
+	width: 750px;
+	margin:auto;
+}
+nav li{
+	display:inline;
+}
+main{
+	/*background-color:#0e5135;*/
+	background: rgba(255, 255, 255, 0.5);
+}
