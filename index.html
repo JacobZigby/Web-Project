@@ -1,53 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Final</title>
-		<meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="LengendOfZelda.css">
-        
-	</head>
-	<body>
 
-    This is the music used for the background  
+<head>
 
-    <div id="player">
-    <audio controls autoplay hidden loop>
-    <source src="audio/BG-MUSIC.mp3" type="audio/mpeg">
-    </audio>
-	</div>
-        
-        
-	<!-- The Blue elements mean that the are located inside of the body.
-	<!-- The orange elements means that it is contained inside of something blue -->
-	<header> header </header>
-	<div class="nav" >
-		<nav>
-            		<ul>
-		<!-- the nav text and <br> are temp-->
-			 
-				<li class="home" onclick="slideNHide(1)"><a href="#">Home</a></li> &nbsp
-				<li class="Gameinfo" onclick="slideNHide(2)"><a href="#">GameInfo</a></li>&nbsp
-				<li class="Artwork" onclick="slideNHide(3)"><a href="#">Artwork</a></li>&nbsp
-				<li class="BuyNow" onclick="slideNHide(4)"><a href="#">BuyNow</a></li>&nbsp
-				<li class="Aboutus" onclick="slideNHide(5)"><a href="#">About us</a></li>
-            		</ul>
-		</nav>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The Legend of Zelda: Wind Waker</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="LegendOfZelda.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom " role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse textCustom" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">GameInfo</a>
+                    </li>
+                    <li>
+                        <a href="#">Artwork</a>
+                    </li>
+                    <li>
+                        <a href="#">BuyNow</a>
+                    </li>
+                    <li>
+                        <a href="#">AboutUs</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-	<main>
-	
-            
-            <div id="content1" class="panel panel-default">
-                <div class="panel-heading">
-                <h1 class="panel-title">Div1 content</h1>
-            </div>
-                <div class="panel-body">Content...</div>
-            </div>
-			
-	</main>
-		<footer>
+        <!-- /.container -->
+    </nav>
 
-		</footer>
-		<script src="JavaScript.js"></script>
-        <script> src="bootstrap.js"</script>
-	</body>
+
+
+    <!-- Page Content -->
+    <div class="container  ">
+
+        <hr>
+
+        <div class="row">
+            <div class="col-xs-9 col-sm-9 col-md-8  textCustom  ">
+                <h2>The story</h2>
+                <p>This is but one of the legends of which the people speak...
+                    Long ago, there existed a kingdom where a golden power
+                    lay hidden. It was a prosperous land blessed with green
+                    forests, tall mountains, and peace. But one day, a
+                    man of great evil found the golden power and took it
+                    for himself. With its strength at his command, he spread
+                    darkness across the kingdom. But then, when all hope
+                    had died, and the hour of doom seemed at hand... ...a
+                    young boy clothed in green appeared as if from nowhere.
+                    Wielding the blade of evil 's bane, he sealed the dark
+                    one away and gave the land light. This boy, who traveled
+                    through time to save the land, was known as the Hero
+                    of Time. The boy's tale was passed down through generations
+                    until it became legend... But then, a day came when
+                    a fell wind began to blow across the kingdom. The great
+                    evil that all thought had been forever sealed away
+                    by the hero once again crept forth from the depths
+                    of the earth, eager to resume its dark designs. The
+                    people believed that the Hero of Time would again come
+                    to save them... But the hero did not appear. Faced
+                    by an onslaught of evil, the people could do nothing
+                    but appeal to the Gods. In their last hour, as doom
+                    drew nigh, they left their future in the hands of fate.
+                    What became of that kingdom? None remain who know.
+                    The memory of the kingdom vanished, but its legend
+                    survived on the wind 's breath. On a certain island,
+                    it became customary to garb boys in green when they
+                    came of age. Clothed in the green of fields, they aspired
+                    to find heroic blades and cast down evil. The elders
+                    wished only for the youths to know courage like the
+                    hero of legend.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row textCustom">
+            <div class="col-xs-8 col-sm-4 col-md-8 col-lg-4">
+                <img class="img-circle img-responsive img-center" src="images/Circle11.PNG"
+                alt="">
+                <h2>Cruise the deep Seas</h2>
+                <p>Cruise across the Great Sea with King of Red Lions, the wisest—and most talkative—of boats, propelled by a magical sail.
+                    Discover lost islands and hidden secrets, and find treasure charts to haul up sunken riches.</p>
+            </div>
+            <div class="col-xs-8 col-sm-4 col-md-8 col-lg-4">
+                <img class="img-circle img-responsive img-center" src="images/Circle22.PNG"
+                alt="">
+                <h2>Meet The New Characters Tetra And Her rew</h2>
+                <p>Tetra is the leader of a band of pirates who roam the Great Sea.
+                   These salty scalawags help Link throughout his journey.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-xs-8 col-sm-4 col-md-8 col-lg-4">
+                    <p>Copyright &copy; The Legend Of Zelda 2017</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
