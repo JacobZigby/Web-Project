@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>ContactUs</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="css/custom.css" rel="stylesheet">
+
+
+
+    <!-- Custom Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+    <audio autoplay loop>
+          <source src="audio/BG-MUSIC.mp3">
+    </audio>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+          <!-- Logo and responsive toggle -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+
+          </div>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbar">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                      <a href="#">Home</a>
+                  </li>
+                  <li>
+                      <a href="#">GameInfo</a>
+                  </li>
+
+                  <li>
+                      <a href="#">BuyNow</a>
+                  </li>
+
+                  <li>
+                      <a href="#">ContactUs</a>
+                  </li>
+              </ul>
+
+          </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+  </nav>
+
+  <div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-xs-2 ">
+                <h1 class="h1">
+                  <small>Feel free to contact us</small></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+            <div class="col-lg-12 col-md-6 col-xs-2 ">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                  <div class="col-lg-12 col-md-6 col-xs-2 ">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                  <div class="col-lg-12 col-md-6 col-xs-2 ">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
+
+</body>
+</html>
