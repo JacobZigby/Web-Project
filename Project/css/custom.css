@@ -63,7 +63,7 @@ header .header-content .header-content-inner p {
     color: black;
 }
 
-@media(min-width:768px) {
+
     header {
         min-height: 100%;
         background-repeat: repeat;
@@ -159,7 +159,6 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: yellowgreen!important;
     background-color: transparent;
 }
 
@@ -168,7 +167,7 @@ header .header-content .header-content-inner p {
     background-color: transparent;
 }
 
-@media(min-width:768px) {
+
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
