@@ -18,7 +18,9 @@
 
     <link href="css/custom.css" rel="stylesheet">
 
-
+    <audio id="music" autoplay loop>
+          <source src="audio/BG-MUSIC.mp3">
+    </audio>
 
 </head>
 
@@ -41,10 +43,10 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">GameInfo</a>
+                        <a href="GameInfo.html">GameInfo</a>
                     </li>
 
                     <li>
@@ -52,7 +54,7 @@
                     </li>
 
                     <li>
-                        <a href="#">ContactUs</a>
+                        <a href="ContactUs.html">ContactUs</a>
                     </li>
                 </ul>
 
@@ -64,14 +66,13 @@
     <div class="container">
 
         <div class="row">
-
             <div class="col-lg-12">
                 <h1 class="page-header">GameInfo</h1>
             </div>
-
+            <button id="Mute" onclick="mute()"> mute </button>
             <div class="col-lg-6 col-md-6 col-xs-4 thumb">
 
-                    <img class="img-responsive" src="images/Tetra_and_Pirates.png" alt="Tetra With Her Crew">
+                    <img id="img1" class="img-responsive" src="images/Tetra_and_Pirates.png" alt="Tetra With Her Crew">
                 </a>
                 <h2> Tetra and the pirates.</h2>
 
@@ -81,7 +82,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-xs-4 thumb">
 
-                    <img class="img-responsive" src="images/Ganondorf_Wind_Waker.png" alt="GanonDorf">
+                    <img id="img2" class="img-responsive" src="images/Ganondorf_Wind_Waker.png" alt="GanonDorf">
                 </a>
                 <h2> Ganondorf </h2>
 
@@ -93,7 +94,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-xs-4 thumb">
 
-                    <img class="img-responsive" src="images/Gohma_Medium.png" alt="Gahoma">
+                    <img id="img3" class="img-responsive" src="images/Gohma_Medium.png" alt="Gahoma">
                 </a>
                 <h2> One of the Monstrous Foes you will encounter </h2>
 
@@ -101,7 +102,7 @@
             </div>
               <div class="col-lg-6 col-md-6 col-xs-4 thumb">
 
-                    <img class="img-responsive" src="images/Wind_Waker.png" alt="Wind_Waker">
+                    <img id="img4" class="img-responsive" src="images/Wind_Waker.png" alt="Wind_Waker">
                 </a>
                 <h2> The Wind Waker </h2>
 
@@ -124,7 +125,7 @@
 
     </div>
     <!-- /.container -->
-
+<script src="js/jquery-1.11.3.min.js"></script>
     <!-- jQuery -->
     <script src="js/custom.js"></script>
 
