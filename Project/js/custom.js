@@ -28,3 +28,11 @@ function mute(){
 		document.getElementById("mute").textContent="UnMute";
 	}
 }
+$.ajax({
+   type: "GET",
+   url: 'data.html',
+   dataType:"html",
+   success: function(response){
+     $('#navigation').html(response);
+     }
+   });

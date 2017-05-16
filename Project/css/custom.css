@@ -6,41 +6,19 @@ body {
     background-image: url('../images/zeldawallpaper2.png');
 }
 
-a {
-    color: yellowgreen;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
+
 .h1, .h2, .h3, .h4, .h5, .h6{
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-a:hover,
-a:focus {
-    color: forestgreen;
-}
+
 
 p {
     font-size: 16px;
     line-height: 1.5;
 }
 
-header {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
-    color: black;
-    background-image: url('../images/zeldawallpaper2.png');
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-repeat: repeat;
 
-}
 
 header .header-content {
     position: relative;
@@ -71,11 +49,9 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 40%;
         padding: 0 50px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+
     }
 
     header .header-content .header-content-inner {
@@ -88,14 +64,7 @@ header .header-content .header-content-inner p {
     	font-size: 100px;
 		}
 
-    header .header-content .header-content-inner p {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 80%;
-        font-size: 18px;
 
-    }
-}
 
 .section-heading {
     margin-top: 0;
@@ -103,7 +72,7 @@ header .header-content .header-content-inner p {
 }
 
 
-.
+
 .page-footer {
 	text-align: center;
 	}
@@ -130,32 +99,7 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-.navbar-default {
-    border-color: rgba(34,34,34,.05);
-    background-color: #fff;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
 
-.navbar-default .navbar-header .navbar-brand {
-    color: yellowgreen;
-}
-
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
-}
-
-.navbar-default .nav > li>a,
-.navbar-default .nav>li>a:focus {
-    color: #222;
-}
-
-.navbar-default .nav > li>a:hover,
-.navbar-default .nav>li>a:focus:hover {
-    color: yellowgreen;
-}
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
@@ -172,99 +116,12 @@ header .header-content .header-content-inner p {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
 
-    }
-
-    .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
-        letter-spacing: 0.5em;
-    }
-
-    .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
-        color: black;
-    }
-
-    .navbar-default .nav > li>a,
-    .navbar-default .nav>li>a:focus {
-        color: black;
-    }
-
-    .navbar-default .nav > li>a:hover,
-    .navbar-default .nav>li>a:focus:hover {
-        color: black;
-    }
-
-
-
-    .navbar-default.affix .navbar-header .navbar-brand {
-        letter-spacing: 0;
-        color: black;
-    }
-
-
-
-    .navbar-default.affix .nav > li>a,
-    .navbar-default.affix .nav>li>a:focus {
-        color: black;
-    }
-
-    .navbar-default.affix .nav > li>a:hover,
-    .navbar-default.affix .nav>li>a:focus:hover {
-        color: black;
-    }
 }
-
-.btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-
-
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    background-image: none;
-}
-
-
 
 .btn-default .badge {
     color: #fff;
     background-color: #222;
 }
-
-.btn-primary {
-    border-color: yellowgreen;
-    color: #fff;
-    background-color: yellowgreen;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-    border-color: limegreen;
-    color: #fff;
-    background-color: limegreen;
-}
-
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-    background-image: none;
-}
-
-
 
 .btn-primary .badge {
     color: yellowgreen;
@@ -287,10 +144,7 @@ img::selection {
     background: 0 0;
 }
 
-img::-moz-selection {
 
-    background: 0 0;
-}
 .jumbotron {
 background-color: transparent;
 
@@ -303,4 +157,32 @@ padding-bottom: 24px; }
 }
 .h1 small {
 font-size: 24px;
+}
+
+body {
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
 }
