@@ -4,7 +4,10 @@
 <head>
 
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <title>GameInfo</title>
 
@@ -47,7 +50,7 @@
                     </li>
 
                     <li>
-                        <a href="BuyNow.html">BuyNow</a>
+                        <a href="buyNow.html">BuyNow</a>
                     </li>
 
                     <li>
@@ -66,14 +69,14 @@
             <div class="col-lg-12">
                 <h1 class="page-header">GameInfo</h1>
             </div>
-            <button id="Mute" onclick="mute()"> mute </button>
+            <button id="Mute" class="btn btn-primary btn-lg" onclick="mute()"> Mute </button>
             <div class="col-lg-6 col-md-6 col-xs-4 thumb">
 
-                    <img id="img1" class="img-responsive" src="images/Tetra_and_Pirates.png" alt="Tetra With Her Crew">
+                    <img id="img1"class="img-responsive" src="images/Tetra_and_Pirates.png" alt="Tetra With Her Crew">
                 </a>
                 <h2> Tetra and the pirates.</h2>
 
-                <p class="font-size">Tetra is the leader of a band of pirates who roam the Great Sea.
+                <p id="tetra" class="font-size">Tetra is the leader of a band of pirates who roam the Great Sea.
                    These salty scalawags help Link throughout his entire journey.
                 </p>
             </div>
@@ -83,7 +86,7 @@
                 </a>
                 <h2> Ganondorf </h2>
 
-                <p class="font-size"> The main vilan which is freed from an external prison.
+                <p id="ganon" class="font-size"> The main vilan which is freed from an external prison.
                   His main task is to search for a young girl who may hold
                   the power to change the entire world.
                 </p>
@@ -95,7 +98,7 @@
                 </a>
                 <h2> One of the Monstrous Foes you will encounter </h2>
 
-                <p class="font-size"> This relentless guardian called Gohdan tests the heroes courage.</p>
+                <p id="foes" class="font-size"> This relentless guardian called Gohdan tests the heroes courage.</p>
             </div>
               <div class="col-lg-6 col-md-6 col-xs-4 thumb">
 
@@ -103,7 +106,7 @@
                 </a>
                 <h2> The Wind Waker </h2>
 
-                <p class="font-size"> The Wind Waker casts musical spells to do multiple things
+                <p id="waker" class="font-size"> The Wind Waker casts musical spells to do multiple things
                   such as change the wind's direction and affect the whole world
                   in the most mysterious ways! </p>
             </div>
@@ -121,17 +124,13 @@
         </footer>
 
     </div>
+    <!-- /.container -->
+<script src="js/jquery-1.11.3.min.js"></script>
     <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/custom.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Custom Javascript -->
-    <script src="js/custom.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
 
 </body>
 
