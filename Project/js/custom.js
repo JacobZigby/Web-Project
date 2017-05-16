@@ -36,3 +36,19 @@ $.ajax({
      $('#navigation').html(response);
      }
    });
+
+//working on xml
+var xml = new XMLHttpRequest;
+xml.onload = function(){
+	if(xml.status==200){
+			var response = xml.responseXML;
+			document.getElementById("tetra").textContent(response.getElementsByTagName('tetra')[0].firstChild.nodeValue);
+			document.getElementById("ganon").textContent(response.getElementsByTagName('ganondorf')[0].firstChild.nodeValue);
+			document.getElementById("foes").textContent(response.getElementsByTagName('foes')[0].firstChild.nodeValue);
+			document.getElementById("waker").textContent(response.getElementsByTagName('waker')[0].firstChild.nodeValue);
+	}
+}
+
+xml.open('get', 'description.XML', true);
+xml.send();
+
